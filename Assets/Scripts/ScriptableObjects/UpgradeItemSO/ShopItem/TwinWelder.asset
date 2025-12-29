@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: TwinWelder
+  m_EditorClassIdentifier: 
+  ItemName: TWIN WELDER
+  ItemDesc: 'Increases crit chance, but decreases speed and health. '
+  ItemSprite: {fileID: 75750913, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 105
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: c9f7409cbc0d7fd4f88719c59c358184, type: 2}
+  - {fileID: 11400000, guid: aa404290bb69b5649ae4c43afa49baa8, type: 2}
+  - {fileID: 11400000, guid: af0a632390130cb4483b8b83c7e3eba3, type: 2}

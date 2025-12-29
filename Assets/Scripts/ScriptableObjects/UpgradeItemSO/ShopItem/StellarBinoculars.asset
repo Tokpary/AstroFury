@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: StellarBinoculars
+  m_EditorClassIdentifier: 
+  ItemName: STELLAR BINOCULARS
+  ItemDesc: 'Increases range and shot speed, but decreases damage. '
+  ItemSprite: {fileID: 1081440047, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 80
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: eb84e61d733dae344b670d7a56180b0b, type: 2}
+  - {fileID: 11400000, guid: 0c6f041c416ace14e82d5f84445f4bfc, type: 2}
+  - {fileID: 11400000, guid: ba19014b1939db3479751c2a050277db, type: 2}

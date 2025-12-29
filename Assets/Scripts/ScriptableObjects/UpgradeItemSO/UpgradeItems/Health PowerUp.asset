@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: Health PowerUp
+  m_EditorClassIdentifier: 
+  ItemName: HEALTH UP
+  ItemDesc: Restores 50 Health Points
+  ItemSprite: {fileID: 21300000, guid: e98c1836afba2de42850828c418f5e19, type: 3}
+  Price: 0
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 3ea7164edac21f14286f201b934b32c1, type: 2}

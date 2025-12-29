@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: OrbitalCamera
+  m_EditorClassIdentifier: 
+  ItemName: ORBITAL CAMERA
+  ItemDesc: 'Increases range and crit chance, but decreases damage. '
+  ItemSprite: {fileID: 1440563649, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 95
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 425d90b48e4857844be47f7dd91c3b9d, type: 2}
+  - {fileID: 11400000, guid: 732ea2dd9025f20468992c4869977424, type: 2}
+  - {fileID: 11400000, guid: 28975cc2169f2d045988ca34f23a3805, type: 2}

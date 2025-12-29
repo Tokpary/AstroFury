@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: Laser
+  m_EditorClassIdentifier: 
+  ItemName: PHOTON STRIKE LASER
+  ItemDesc: The Photon Strike Laser is a cutting-edge weapon that emits a concentrated
+    beam of high-energy photons.
+  ItemSprite: {fileID: 488120580, guid: e4d8db01b97a2c645846ec9ea47c2a92, type: 3}
+  Price: 0
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades: []

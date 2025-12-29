@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: MechanicalPliers
+  m_EditorClassIdentifier: 
+  ItemName: MECHANICAL PLIERS
+  ItemDesc: 'Increases damage but reduces range and shot speed. '
+  ItemSprite: {fileID: -363928409, guid: b69243486a87be34b903d70f4c424aff, type: 3}
+  Price: 75
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: ba5da9cceeceea449ab4184c8527b94a, type: 2}
+  - {fileID: 11400000, guid: 40c996c31fc056940b3c983117fb4cd8, type: 2}
+  - {fileID: 11400000, guid: d58fcfc83d1e2844d8fb759695a1e8ea, type: 2}

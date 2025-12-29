@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: InterplanetaryDrill
+  m_EditorClassIdentifier: 
+  ItemName: INTERPLANETARY DRILL
+  ItemDesc: Increases range and critical damage but decreases shot speed.
+  ItemSprite: {fileID: 465222257, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 110
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: e899761f6ec7b5b4a9a5704075bcebc1, type: 2}
+  - {fileID: 11400000, guid: c5ef60359d431f94a8e0fb9eed860f8c, type: 2}
+  - {fileID: 11400000, guid: 72105e2c21d20a44c98abf2dd12e38b5, type: 2}

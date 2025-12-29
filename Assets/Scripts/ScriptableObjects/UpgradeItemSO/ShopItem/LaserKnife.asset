@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: LaserKnife
+  m_EditorClassIdentifier: 
+  ItemName: LASER KNIFE
+  ItemDesc: 'Raises damage and critical damage but reduces range. '
+  ItemSprite: {fileID: -1868900346, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 85
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: ff14d4087b319f14abcdfd7ca9be08b1, type: 2}
+  - {fileID: 11400000, guid: 2996794d3fecc5943a197f6ea9cb1fbf, type: 2}
+  - {fileID: 11400000, guid: 20ab5b22ea8091040b1bef0b298f815d, type: 2}

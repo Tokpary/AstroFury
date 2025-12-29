@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: AsteroidSupressor
+  m_EditorClassIdentifier: 
+  ItemName: ASTEROID SUPPRESSOR
+  ItemDesc: Increases ship health while decreasing damage output.
+  ItemSprite: {fileID: -1244401092, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 50
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 3a6944e7372cc7246a5be0a876be1f38, type: 2}
+  - {fileID: 11400000, guid: 24ff1c1317cd907449eb68881395860b, type: 2}

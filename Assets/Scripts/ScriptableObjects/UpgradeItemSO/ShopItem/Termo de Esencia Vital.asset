@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: Termo de Esencia Vital
+  m_EditorClassIdentifier: 
+  ItemName: VITAL ESSENCE THERMOS
+  ItemDesc: 'Legends say that in the confines of the galaxy, there is a cup that
+    contains the Elixir of Eternal Life...Just kidding, it''s just coffee. '
+  ItemSprite: {fileID: -968981479, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 85
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: e38479aa829841a42a5e9f3e86141ac8, type: 2}
+  - {fileID: 11400000, guid: 03ec002f3fedc154fbb6bd2fa28bab51, type: 2}
+  - {fileID: 11400000, guid: 4647676a8ab8a3844b46b5f32c2eebf5, type: 2}

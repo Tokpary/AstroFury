@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: IntergalacticManual
+  m_EditorClassIdentifier: 
+  ItemName: INTERGALACTIC MANUAL
+  ItemDesc: Raises maximum health and critical hit chance but slows down ship speed.
+  ItemSprite: {fileID: 95907683, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 90
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: b9cd55cda075ae14dbbc148b9c5fcfa6, type: 2}
+  - {fileID: 11400000, guid: b887bce8afb8aeb49852ff0b5fc3ad20, type: 2}
+  - {fileID: 11400000, guid: 6fdb39c528c1afc4dad69c7b6bc9a071, type: 2}

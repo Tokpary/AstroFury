@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: SpaceDrill
+  m_EditorClassIdentifier: 
+  ItemName: SPACE DRILL
+  ItemDesc: Greatly increases damage and crit chance, but significantly decreases
+    crit damage.
+  ItemSprite: {fileID: 1030942169, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 130
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 5f21def6d9d8b5f45b258838c66ecbdf, type: 2}
+  - {fileID: 11400000, guid: 9038be73724fa764b96ce7ed3f3f3bcd, type: 2}
+  - {fileID: 11400000, guid: 2d8b2f279b74b394ea876c0ef6e12115, type: 2}

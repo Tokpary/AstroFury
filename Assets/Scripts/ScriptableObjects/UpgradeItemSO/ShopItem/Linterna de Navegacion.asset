@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: Linterna de Navegacion
+  m_EditorClassIdentifier: 
+  ItemName: NAVIGATION FLASHLIGHT
+  ItemDesc: 'Flashlight that will illuminate your path at the cost of losing certain
+    movement. '
+  ItemSprite: {fileID: -615883327, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 40
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 079ad89fd123b874a9995fdddecf56f2, type: 2}
+  - {fileID: 11400000, guid: 4647676a8ab8a3844b46b5f32c2eebf5, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: ElectroArm
+  m_EditorClassIdentifier: 
+  ItemName: ELECTROARM
+  ItemDesc: 'Boosts maximum health and damage but reduces ship speed. '
+  ItemSprite: {fileID: 1759596563, guid: b69243486a87be34b903d70f4c424aff, type: 3}
+  Price: 120
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: ee4756e5dedd40f408a7b80075d9132f, type: 2}
+  - {fileID: 11400000, guid: 1f818c7a6ea3b5e489769c08c30dbb10, type: 2}
+  - {fileID: 11400000, guid: c3ba79508ad3c2443942d927f28a604b, type: 2}

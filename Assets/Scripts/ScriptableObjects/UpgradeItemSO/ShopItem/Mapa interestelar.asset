@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd42fb1430903f47a13fd4b6891e63e, type: 3}
+  m_Name: Mapa interestelar
+  m_EditorClassIdentifier: 
+  ItemName: INTERSTELLAR MAP
+  ItemDesc: 'Detailed field guide, oh well, space, narrated and written by the Space
+    Scouts association. '
+  ItemSprite: {fileID: 1301979874, guid: b783698724f81fd48ab9e737fc136864, type: 3}
+  Price: 70
+  playerEquipedSprite: {fileID: 0}
+  ammoSprite: {fileID: 0}
+  StatUpgrades:
+  - {fileID: 11400000, guid: 7732d99f22ddc5344b33fa9f9579745e, type: 2}
+  - {fileID: 11400000, guid: 6e0810d289da15d49a6a7994f3b19925, type: 2}
+  - {fileID: 11400000, guid: 8a0c03ac31207444b918a73d51195f7e, type: 2}
