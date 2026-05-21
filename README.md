@@ -24,7 +24,7 @@ The codebase is structured around SOLID principles, utilizing specific design pa
 
 1. Download the latest compiled build from the [Releases page](https://tokpary.itch.io/astrofury).
 2. Extract the `.zip` file into a local directory.
-3. Run `[ProjectExecutable].exe`.
+3. Run `AstroFury.exe`.
 
 ## 🕹️ Input Mapping
 
